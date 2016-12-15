@@ -1,0 +1,251 @@
+  <link rel="stylesheet" href="styles.css">
+    
+ <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica:400i" rel="stylesheet">
+
+
+
+* {
+       margin: 0; 
+       padding: 0;
+     }
+body {
+      background-color: black
+}
+body2 {
+      background-color: white;
+}
+     div#banner { 
+       position:absolute; 
+       top: 0; 
+       left: 0; 
+       width: 100%; 
+        height: 100px;
+     }
+}
+     div#bannerright { 
+      width: 100%; 
+       padding-top: 30px;
+         padding-left: 50%;
+         color: white;
+        font-size: 70px;
+         float: right;
+         font-family: 'Montserrat',sans-serif;
+    
+     }
+     div#banner-content { 
+   
+       width: 50%;  
+       padding-top: 30px;
+         padding-left: 30px;
+         color: white;
+        font-size: 70px;
+         float: left;
+         font-family: 'Montserrat',sans-serif;
+    
+     }
+     div#main-content { 
+       padding-top: 100px;
+    }
+    div#big-font { 
+        font-size: 190px;
+        text-align: center;
+        padding-top: 25%;
+        color: whitesmoke;
+        font-family: 'Abril Fatface', cursive;
+        line-height: 175px;
+    
+    }
+    div#tiny-font { 
+        font-size: 72px;
+        text-align: center;
+        color: whitesmoke;
+        font-family: 'Abril Fatface', cursive;
+        
+    
+    }
+ div#tiny-font2 { 
+        font-size: 18px;
+        text-align: center;
+        color: whitesmoke;
+        font-family: 'Montserrat',sans-serif;
+     margin-left: 20%;
+     margin-right:20%;
+        
+        
+    
+    }
+#page.copy { 
+        
+        font-size: 24px;
+        text-align: center;
+        color: whitesmoke;
+        font-family: 'Montserrat',sans-serif;   
+        
+    }
+#content {
+  float: left ;
+  width: 80% ;
+}
+#navbar {
+  float: left ;
+  width: 20% ;
+}
+
+
+------------------------------------------------------------
+/* THIS IS THE NAV BAR */
+
+#container {
+    width:100%;
+    margin:20px auto;
+}
+
+#content {
+    float:left;
+    width:76%;
+ font-family: 'IM Fell DW Pica', serif;
+     color: white;
+        font-size: 70px;
+    padding-top: 30px;
+        padding-left:04%
+}
+
+#sidebar {
+    float:left;
+    width:20%;
+    font-family: 'Montserrat',sans-serif;
+     color: white;
+        font-size: 18px;
+    text-align: center;
+        padding-top: 50px
+}
+------------------------------------------------------------
+#footer {
+    clear:both;
+}
+
+    }
+
+-----------------------------------------------------------------
+
+
+
+
+/* HEY NICK THIS IS THE ANIMATION DON'T MESS WITH IT <3*/
+p.clear {
+    clear: both;
+}
+ 
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+ 
+.fade-in {
+	opacity:0;  
+	-webkit-animation:fadeIn ease-in 1; 
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+ 
+	-webkit-animation-fill-mode:forwards; 
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+ 
+	-webkit-animation-duration:1s;
+	-moz-animation-duration:1s;
+	animation-duration:1s;
+}
+ 
+.fade-in.one {
+-webkit-animation-delay: 0.7s;
+-moz-animation-delay: 0.7s;
+animation-delay: 0.7s;
+}
+ 
+.fade-in.two {
+-webkit-animation-delay: 6s;
+-moz-animation-delay:6s;
+animation-delay: 3.1s;
+}
+ 
+.fade-in.three {
+-webkit-animation-delay: 1.6s;
+-moz-animation-delay: 1.6s;
+animation-delay: 1.6s;
+}
+
+.fade-in.four {
+-webkit-animation-delay: 1.6s;
+-moz-animation-delay: 1.6s;
+animation-delay: 1.6s;
+}
+ 
+.box{
+position: relative;
+}
+
+-------
+body{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+
+#container{
+	width:800px;
+	margin:50px auto;
+	padding: 20px;
+	width:50%;
+}
+#container h2{
+	text-align:center;
+	color:#045;
+}
+
+#quoteContainer{
+	width:75%;
+	padding:10px;
+	margin:30px auto;
+	text-align: center;
+  height:70px;
+}
+#buttonContainer{
+	width: 100%;
+	text-align: center;
+}
+#quoteButton{
+	width:200px;
+	margin-top: 10px;
+	border:2px solid white;
+	color:#045;
+	font-family: inherit;
+	font-weight: bold;
+	padding:5px;
+	text-decoration: none;
+	text-align: center;
+}
+
+#quoteButton:hover{
+	cursor:pointer;
+	background:#09c;
+	color: #fff;	
+}
+#quoteButton:active{
+	cursor: pointer;
+}
+#quoteButton{
+	display: inline-block;
+}
+#quoteGenius{
+	font-style: italic;
+	font-weight: 600;
+	text-align: center;
+}
+
+
+/*MEDIA QUERIES*/
+@media screen and(max-width:760px){
+	#quoteButton,#addNew{
+		display: block;
+	}
+}
